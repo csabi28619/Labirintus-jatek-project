@@ -1,0 +1,43 @@
+﻿<Window x:Class="labirintus_generáló.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:labirintus_generáló"
+        mc:Ignorable="d"
+        Title="Labirintus generátor 2000" Height="500" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="1.25*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="1.25*"/>
+        </Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0" Margin="10">
+                <Label x:Name="lbHeight" Content="Labirintus magassága: 5"/>
+                <Slider x:Name="HeightSlider" Minimum="5" Maximum="50" Value="5" TickFrequency="1" IsSnapToTickEnabled="True" ValueChanged="HeightSlider_ValueChanged"/>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Margin="10">
+                <Label x:Name="lbWidth" Content="Labirintus szélessége: 5"/>
+                <Slider x:Name="WidthSlider" Minimum="5" Maximum="50" Value="5" TickFrequency="1" IsSnapToTickEnabled="True" ValueChanged="WidthSlider_ValueChanged"/>
+            </StackPanel>
+            <Button x:Name="btnGenerate" Grid.Row="2" Content="Generálás" Margin="10" Click="GenerateButton_Click"/>
+        </Grid>
+        <StackPanel Grid.Row="1">
+            <Label x:Name="lbGeneratedRoomNumber" Content="Generált Termek száma: 0"/>
+            <Label x:Name="lbGeneratedPassages" Content="Generált járatok száma: 0"/>
+            <Label x:Name="lbGeneratedEmptySpace" Content="Generált üres terek száma: 0"/>
+        </StackPanel>
+        <StackPanel Grid.Row="0" Grid.Column="1">
+            <Button x:Name="btnLanguageChange" Content="Angol nyelvre váltás" Click="btnLanguageChange_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
