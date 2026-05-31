@@ -1,0 +1,102 @@
+# Magyar nyelvi fájl
+# Formátum: kulcs=érték
+
+# Menük
+menu_file=Fájl
+menu_edit=Szerkesztés
+menu_view=Nézet
+menu_validate=Ellenőrzés
+
+# Fájlműveletek
+file_new=Új térkép
+file_open=Megnyitás
+file_save=Mentés
+file_save_as=Mentés másként
+file_exit=Kilépés
+
+# Szerkesztés
+edit_undo=Visszavonás
+edit_redo=Újra
+
+# Nézet
+view_grid=Rács megjelenítése
+view_highlights=Konzisztencia jelölők
+view_reset=Nézet visszaállítása
+
+# Eszközök
+section_tool=ESZKÖZ
+tool_corridor=╬  Folyosó
+tool_room=█  Terem
+tool_player=P  Játékos start
+tool_enemy=☠  Ellenség
+tool_void=·  Törlés
+
+# Ellenség súgó
+enemy_hint_add=Bal katt: +ellenség
+enemy_hint_remove=Jobb katt: -ellenség
+enemy_hint_max=Max 3 / mező
+
+# Folyosó paletta
+section_corridor=FOLYOSÓ TÍPUSA
+
+# Nagyítás
+section_zoom=NAGYÍTÁS
+zoom_reset=Nézet reset
+
+# Jobb panel - térkép info
+section_mapinfo=TÉRKÉP ADATAI
+info_name=Név
+info_size=Méret
+info_rooms=Termek
+info_exits=Kijáratok
+info_enemies=Ellenségek
+
+# Validáció
+section_validate=ELLENŐRZÉS
+validate_run=▶ Ellenőrzés futtatása
+
+# Jelölők magyarázata
+section_legend=JELÖLŐK MAGYARÁZATA
+legend_invalid=Érvénytelen karakter (!)
+legend_isolated=Elszigetelt mező (?)
+legend_exit=Kijárat (E)
+
+# Kezelés súgó
+section_controls=KEZELÉS
+controls_text=Bal katt: festés / +ellenség\nJobb katt: törlés / -ellenség\nKözépső+húz: mozgatás\nGörgetés: nagyítás\nCtrl+Z: visszavonás\nCtrl+Y: újra\nCtrl+S: mentés
+
+# Eszköztár
+toolbar_new=📄 Új
+toolbar_open=📂 Megnyit
+toolbar_save=💾 Mentés
+toolbar_undo=↩ Vissza
+toolbar_redo=↪ Újra
+toolbar_validate=✓ Ellenőrzés
+
+# Párbeszédablakok
+dialog_new_title=Új térkép létrehozása
+dialog_new_rows=Sorok száma
+dialog_new_cols=Oszlopok száma
+dialog_ok=OK
+dialog_cancel=Mégse
+dialog_unsaved_title=Mentetlen változások
+dialog_save_before_close=Szeretné menteni a változásokat?
+dialog_saved=Térkép sikeresen mentve!
+dialog_saved_title=Mentés
+dialog_invalid_title=Érvénytelen térkép
+dialog_invalid_msg=A térkép nem menthető, mert hibákat tartalmaz:
+
+# Hibák
+error_load_title=Hiba
+error_load_msg=Betöltési hiba:
+error_save_title=Hiba
+error_save_msg=Mentési hiba:
+
+# Fájl dialógus
+fdlg_open_title=Térkép megnyitása
+fdlg_open_filter=Térkép fájlok (*.txt)|*.txt|Minden fájl (*.*)|*.*
+fdlg_save_title=Térkép mentése
+fdlg_save_filter=Térkép fájlok (*.txt)|*.txt
+
+# Nyelv
+lang_toggle=English
