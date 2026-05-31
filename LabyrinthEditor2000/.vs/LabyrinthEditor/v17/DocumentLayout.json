@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mailk\\Downloads\\LabyrinthEditor2000\\LabyrinthEditor2000\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3294BD5D-497F-3E84-315C-C29BF4098233}|LabyrinthEditor.csproj|c:\\users\\mailk\\downloads\\labyrintheditor2000\\labyrintheditor2000\\labyrintheditor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3294BD5D-497F-3E84-315C-C29BF4098233}|LabyrinthEditor.csproj|solutionrelative:labyrintheditor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3294BD5D-497F-3E84-315C-C29BF4098233}|LabyrinthEditor.csproj|c:\\users\\mailk\\downloads\\labyrintheditor2000\\labyrintheditor2000\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3294BD5D-497F-3E84-315C-C29BF4098233}|LabyrinthEditor.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LabyrinthEditor",
+              "DocumentMoniker": "C:\\Users\\mailk\\Downloads\\LabyrinthEditor2000\\LabyrinthEditor2000\\LabyrinthEditor.csproj",
+              "RelativeDocumentMoniker": "LabyrinthEditor.csproj",
+              "ToolTip": "C:\\Users\\mailk\\Downloads\\LabyrinthEditor2000\\LabyrinthEditor2000\\LabyrinthEditor.csproj",
+              "RelativeToolTip": "LabyrinthEditor.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-31T19:31:10.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\mailk\\Downloads\\LabyrinthEditor2000\\LabyrinthEditor2000\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\mailk\\Downloads\\LabyrinthEditor2000\\LabyrinthEditor2000\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-31T18:04:45.295Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
